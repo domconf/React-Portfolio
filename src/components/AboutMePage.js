@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../../assets/images/Dom.jpeg";
+import photo from "../assets/images/Portfolio-Avatar.jpg";
 
 export default function AboutMe() {
     return (
