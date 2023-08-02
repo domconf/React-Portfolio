@@ -27,3 +27,5 @@ const projects = [
         "topics": "node.js, express.js, react-bootstrap, graphql, sequelize, bcrypt, MongoDB, Mongoose, Apollo server, Apollo client, webtoken"
     }
 ];
+
+export default projects;
