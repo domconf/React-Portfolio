@@ -60,7 +60,7 @@
   The link to the deployed application is: [Heroku App](https://react-resume-284ecf2302ce.herokuapp.com/)
 
   ## License
-  <br />[MIT License](https://opensource.org/licenses/MIT)<br
+  <br />[MIT License](https://opensource.org/licenses/MIT)<br/>
 
 
 ## Author
