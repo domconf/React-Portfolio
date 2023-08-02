@@ -36,7 +36,7 @@ export default function Project(props) {
 
     return (
         <div className="row mb-5 justify-content-center">
-            <h3 className="row portfolio-title">Portfolio</h3>
+            <h3 className="row portfolio-title mt-3">Portfolio</h3>
             <div className="col-10 d-flex">
                 <div className="row row-cols-2">
                     {props.projects.map((project, index) => (
@@ -81,14 +81,5 @@ export default function Project(props) {
             </div>
         </div>
 
-        // <div className="col d-flex" id={props.index}>
-        //     <div className="card mb-4 image-card">
-        //         <img src={props.image} className="project-image" alt="" style={styles.imageSize} />
-        //         <div className="project-info">
-        //             <a href={props.deploy} target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/>{props.name}</a>
-        //             <a href={props.github} target="_blank"><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/>Github</a>
-        //         </div>
-        //     </div>
-        // </div>
     )
 }
