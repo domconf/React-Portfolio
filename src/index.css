@@ -32,3 +32,39 @@ a.nav-link {
     display: flex;
     justify-content: center;
 }
+
+p {
+    margin: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4.resume {
+    margin: 10px 0 25px 25px;
+}
+
+a {
+    color: black;
+}
+
+.title-aboutme {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.aboutme {
+    font-size: 20px;
+}
+
+form.flex-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 10px;
+}

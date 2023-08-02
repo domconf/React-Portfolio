@@ -25,7 +25,7 @@ export default function Contact() {
         setContactEmail("");
     };
     return (
-        <div>
+        <div className="row justify-content-center text-center">
             <h3>Contact</h3>
             <form className="flex-row" onSubmit={handleFormSubmit}>
                 <div className="form-group col-6">
