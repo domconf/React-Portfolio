@@ -1,5 +1,10 @@
 import brewCast from "../assets/images/BrewCast.png";
 import realDills from "../assets/images/real-dills.png";
+import codeQuiz from "../assets/images/code_quiz.png";
+import weatherDb from "../assets/images/weather-db.png"
+import noteTaker from "../assets/images/note-taker.png"
+import pwGenerator from "../assets/images/pw-generator.png"
+
 
 const projects = [
     {
@@ -26,6 +31,38 @@ const projects = [
     //     "deploy": "heroku.url",
     //     "topics": "node.js, express.js, react-bootstrap, graphql, sequelize, bcrypt, MongoDB, Mongoose, Apollo server, Apollo client, webtoken"
     // }
+    {
+        "id": 3,
+        "name": "Code Quiz",
+        "image": codeQuiz,
+        "github": "https://github.com/domconf/Code_Quiz",
+        "deploy": "https://domconf.github.io/Code_Quiz/",
+        "topics": "HTML, CSS, JavaScript"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": weatherDb,
+        "github": "https://github.com/domconf/WeatherDashboard",
+        "deploy": "https://domconf.github.io/WeatherDashboard/",
+        "topics": "HTML, CSS, JavaScript, web APIs"
+    },
+    {
+        "id": 5,
+        "name": "Note Taker",
+        "image": noteTaker,
+        "github": "https://github.com/domconf/Note-Taker",
+        "deploy": "https://note-takerv1.herokuapp.com/",
+        "topics": "express.js, HTML"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "image": pwGenerator,
+        "github": "https://github.com/domconf/Note-Taker",
+        "deploy": "https://note-takerv1.herokuapp.com/",
+        "topics": "express.js, HTML"
+    }
 ];
 
 export default projects;

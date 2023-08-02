@@ -24,8 +24,8 @@ export default function Project(props) {
             padding: "0",
         },
         discContainer: {
-            backgroundColor: "#9353a6",
-            color: "black",
+            backgroundColor: "black",
+            color: "white",
             fontSize: "15px",
             width: "100%",
         },
@@ -57,22 +57,24 @@ export default function Project(props) {
                                         <a href={project.github}>{github}</a>
                                     </div>
                                 </div>
-                                <div className="card-body" style={styles.discContainer}>
-                                    <h5 className="card-subtitle mb-1" style={styles.cardH5}>
+                                <div className="card-body" style={{ ...styles.discContainer, textAlign: "center" }}>
+                                    <h5 className="card-subtitle mb-1" style={{ ...styles.cardH5 }}>
                                         {project.name}
                                     </h5>
                                     <p className="card-text">{project.description}</p>
-                                    <h5 className="card-subtitle mb-1" style={styles.cardH5}>
+                                    <h5 className="card-subtitle mb-1" style={{ ...styles.cardH5 }}>
                                         Technologies
                                     </h5>
+
                                     <p className="card-text">{project.topics}</p>
                                     <div className="card mb-4 image-card">
                                         <img src={props.image} className="project-image" alt="" style={styles.imageSize} />
-                                        <div className="project-info">
+                                        <div className="project-info" style={{ display: "flex", justifyContent: "space-evenly" }}>
                                             <a href={project.github} target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon" /></a>
                                             <a href={project.deploy} target="_blank"><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon" /></a>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

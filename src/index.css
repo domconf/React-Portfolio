@@ -6,7 +6,7 @@ body {
 
 
 header {
-  background-color: rgb(214, 22, 22);
+  background-color: rgb(141, 15, 15);
   border-bottom: double;
   border-bottom-color: var(--dark);
 }
@@ -29,7 +29,9 @@ footer {
   margin-left: 25px;
   font-size: 50px;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
+
 
 .nav {
   margin-top: 10px;
@@ -64,6 +66,8 @@ a {
 
 .title-aboutme {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   margin-top: 20px;
 }
