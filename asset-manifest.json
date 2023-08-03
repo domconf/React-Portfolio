@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.edf1a864.css",
+    "main.js": "/React-Portfolio/static/js/main.3d977223.js",
+    "static/media/BrewCast.png": "/React-Portfolio/static/media/BrewCast.70c796a58a30f43444a7.png",
+    "static/media/Portfolio-Avatar.jpg": "/React-Portfolio/static/media/Portfolio-Avatar.269c7cdd9a169c7ee62a.jpg",
+    "static/media/weather-db.png": "/React-Portfolio/static/media/weather-db.0fff2b31103e72b2e31a.png",
+    "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.a4451837bd1e998d87b5.png",
+    "static/media/real-dills.png": "/React-Portfolio/static/media/real-dills.480457bc1ab57ed12663.png",
+    "static/media/code_quiz.png": "/React-Portfolio/static/media/code_quiz.bc18b8a44b0a9864dafb.png",
+    "static/media/pw-generator.png": "/React-Portfolio/static/media/pw-generator.eef00cf0674b11fffb3e.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.edf1a864.css.map": "/React-Portfolio/static/css/main.edf1a864.css.map",
+    "main.3d977223.js.map": "/React-Portfolio/static/js/main.3d977223.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf1a864.css",
+    "static/js/main.3d977223.js"
+  ]
+}
