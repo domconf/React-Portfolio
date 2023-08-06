@@ -1,9 +1,10 @@
 import brewCast from "../assets/images/BrewCast.png";
 import realDills from "../assets/images/real-dills.png";
+import cinemaStash from "../assets/images/Cinema-Stash.png";
 import codeQuiz from "../assets/images/code_quiz.png";
-import weatherDb from "../assets/images/weather-db.png"
-import noteTaker from "../assets/images/note-taker.png"
-import pwGenerator from "../assets/images/pw-generator.png"
+import weatherDb from "../assets/images/weather-db.png";
+import noteTaker from "../assets/images/note-taker.png";
+import pwGenerator from "../assets/images/pw-generator.png";
 
 
 const projects = [
@@ -23,16 +24,16 @@ const projects = [
         "deploy": "https://real-dills-pro-shop.herokuapp.com/",
         "topics": "express-js, mysql, sequelize, node-js, handlebars-js"
     },
-    // {
-    //     "id": 3,
-    //     "name": "Cinema Stash",
-    //     "image": cinemaStash,
-    //     "github": "https://github.com/domconf/Cinema-Stash",
-    //     "deploy": "heroku.url",
-    //     "topics": "node.js, express.js, react-bootstrap, graphql, sequelize, bcrypt, MongoDB, Mongoose, Apollo server, Apollo client, webtoken"
-    // }
     {
         "id": 3,
+        "name": "Cinema Stash",
+        "image": cinemaStash,
+        "github": "https://github.com/domconf/Cinema-Stash",
+        "deploy": "https://cinema-stash-c85de8364f90.herokuapp.com/",
+        "topics": "node.js, express.js, react-bootstrap, graphql, sequelize, bcrypt, MongoDB, Mongoose, Apollo server, Apollo client, webtoken"
+    },
+    {
+        "id": 4,
         "name": "Code Quiz",
         "image": codeQuiz,
         "github": "https://github.com/domconf/Code_Quiz",
@@ -40,7 +41,7 @@ const projects = [
         "topics": "HTML, CSS, JavaScript"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Weather Dashboard",
         "image": weatherDb,
         "github": "https://github.com/domconf/WeatherDashboard",
@@ -48,7 +49,7 @@ const projects = [
         "topics": "HTML, CSS, JavaScript, web APIs"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Note Taker",
         "image": noteTaker,
         "github": "https://github.com/domconf/Note-Taker",
@@ -56,7 +57,7 @@ const projects = [
         "topics": "express.js, HTML"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Password Generator",
         "image": pwGenerator,
         "github": "https://github.com/domconf/Note-Taker",
