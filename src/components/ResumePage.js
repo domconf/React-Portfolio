@@ -1,5 +1,5 @@
 import React from "react";
-// import ResumeDoc from "../assets/DomConfessoreResume.pdf";
+import ResumeDoc from "../assets/DomConfessoreResume.pdf";
 
 const frontEndSkills = [
     "HTML",
@@ -23,10 +23,10 @@ export default function Resume() {
         <div className="flex-row mt-4">
             <div className="row justify-content-center">
                 <h3 className="row resume-title">Resume</h3>
-                {/* <h4 className="resume row">
-                    Download Dominick's {" "} <a href={ResumeDoc} download="" className="row justify-content-center"> Resume
+                <h4 className="resume row">
+                    Download Dominick's {" "} <a href={ResumeDoc} download="DomConfessoreResume.pdf" className="row justify-content-center"> Resume
                     </a>
-                </h4> */}
+                </h4>
             </div>
             <div>
                 <h5 className="row justify-content-center mt-3">Front-End Experience</h5>
